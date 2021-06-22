@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
     box: {
       height: '100%',
       paddingLeft: 20,
-    }
+    },
   }));
 
 const FormInputButton = ({stateMessage}) => {
@@ -66,7 +66,7 @@ const FormInputButton = ({stateMessage}) => {
           <Box display="flex" alignItems="center" className={classes.box}>
            <Button
                 type="submit"
-                variant="contained"
+                variant="contained" 
                 color="primary"
                 fullWidth
               >

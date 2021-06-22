@@ -1,0 +1,54 @@
+.background{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  background-image: radial-gradient(ellipse farthest-corner at 670px 50px , #7d7777 20%,rgba(69,64,70,255) 40%, rgba(18,19,23,255) 70%);
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  margin: 1rem;
+  margin: 0 auto;
+}
+
+.show-chat {
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.input-name {
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.render-chat {
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+h3 {
+  color: #2f72da;
+}
+
+span {
+  color: black;
+}
